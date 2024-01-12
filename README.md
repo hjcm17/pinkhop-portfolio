@@ -26,7 +26,7 @@ Desenvolver um portfólio online para aprimorar meu aprendizado e experiência c
 
 # Atribuições
 
-
+Imagem de master1305 no Freepik;
 
 **Contato:**
 - Nome: Hugo Mota

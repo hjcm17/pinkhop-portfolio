@@ -1,0 +1,35 @@
+img {
+    width: 564px;
+    height: 397px;
+}
+
+.portfolio--container {
+    display: flex;
+    width: 1152px;
+    padding: 35px 17px;
+    background-color: blueviolet;
+}
+
+.portfolio--container .portfolio--container--carousel {
+    width: 604px;
+    height: 512px;
+    background-color: black;
+
+}
+
+
+.depoiments--cards {
+    display: flex;
+    padding: 3px;
+    width: 465px;
+    height: 258px;
+    background-color: aquamarine;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.ebook--box {
+    width: 466px;
+    height: 655px;
+    background-color: blue;
+}
