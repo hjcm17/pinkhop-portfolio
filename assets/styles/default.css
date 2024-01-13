@@ -1,16 +1,23 @@
 
+/* IMPORTS */
+
+/* FONTS PATTAYA AND POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* RESET SETTINGS */
-* {
+*,
+*::before,
+*::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
     list-style: none;
     scroll-behavior: smooth;
+    
 }
 
 :root {
+
     --text-color-hero: #fff;
     --secondary-text-color-hero: #000;
     --main-color-name: #bcf0e4;
@@ -25,8 +32,21 @@
     --other-color: #bcc8f0;
     --secondary-other-color: #e2f0bc;
 
-    --h1-font: 4.5rem;
-    --h2-font: 2.9rem;
-    --p-font: 1rem;
+    --logo-font: "Pattaya", sans-serif;
+    --text-font: "Poppins", sans-serif;
+    --secondary-text-font: "Poppins", monospace;
+
+    --color-light: #fff;
+    --color-dark: #303030;
+    --color-accent: #16e0bd;
+
+
+    --font-regular: 300;
+    --font-bold: 900;
+
+    --font-h1: 3rem;
+    --font-h2: 2.25rem;
+    --font-h3: 1.25rem;
+    --font-body: 1rem;
 
 }
