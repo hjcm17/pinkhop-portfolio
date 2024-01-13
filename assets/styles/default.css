@@ -1,4 +1,3 @@
-
 /* IMPORTS */
 
 /* FONTS PATTAYA AND POPPINS */
@@ -13,9 +12,10 @@
     box-sizing: border-box;
     list-style: none;
     scroll-behavior: smooth;
-    
+
 }
 
+/* CUSTOM STYLE*/
 :root {
 
     --text-color-hero: #fff;
@@ -32,14 +32,13 @@
     --other-color: #bcc8f0;
     --secondary-other-color: #e2f0bc;
 
-    --logo-font: "Pattaya", sans-serif;
-    --text-font: "Poppins", sans-serif;
-    --secondary-text-font: "Poppins", monospace;
+    --font-primary: "Poppins", sans-serif;
+    --font-secundary: "Poppins", monospace;
+    --font-third: "Pattaya", sans-serif;
 
     --color-light: #fff;
     --color-dark: #303030;
     --color-accent: #16e0bd;
-
 
     --font-regular: 300;
     --font-bold: 900;
@@ -48,5 +47,79 @@
     --font-h2: 2.25rem;
     --font-h3: 1.25rem;
     --font-body: 1rem;
+}
 
+/* RESPONSIVE */
+@media (min-width: 800px) {
+    :root {
+
+        /* ALTERANDO FONTE DE ACORDO COM O TAMNHO DA TELA*/
+        --font-h1: 4.5rem;
+        --font-h2: 3.75rem;
+        --font-h3: 1.5rem;
+        --font-body: 1.125rem;
+    }
+}
+
+/* GENERAL STYLES */
+
+body {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-family: var(--font-primary);
+    font-size: var(--font-body);
+    line-height: 1.6;
+    letter-spacing: 2.4px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+strong {
+    font-weight: var(--font-bold);
+}
+/* TYPOGRAPHY  */
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+
+}
+
+h1 {
+    font-size: var(--font-h1);
+}
+
+h2 {
+    font-size: var(--font-h2);
+}
+
+h3 {
+    font-size: var(--font-h3);
+}
+
+.section--title {
+    margin-bottom: .25em;
+
+}
+
+.section--title--intro {
+    font-weight: var(--font-regular);
+}
+
+.section--title--intro strong {
+    display: block;
+}
+
+.section--subtitle {
+    font-size: var(--font-h3);
+}
+
+.section--subtitle--intro,
+.section--subtitle-about {
+    font-family: var(--font-secundary);
+    background: var(--color-accent);
 }
