@@ -1,0 +1,32 @@
+
+
+/* RESET SETTINGS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --text-color-hero: #fff;
+    --secondary-text-color-hero: #000;
+    --main-color-name: #bcf0e4;
+    --bg-color-hero: #ec3b83;
+    --secondary-bg-color-hero: #ff99cc;
+    --third-bg-color-hero: #f0bcc8;
+    --bg-color: #ffe4ed;
+    --secondary-bg-color: #fffbe4;
+    --bg-color-card: #424242;
+    --button-color: #5bb951;
+    --secondary-button-color: #f2f063;
+    --other-color: #bcc8f0;
+    --secondary-other-color: #e2f0bc;
+
+    --h1-font: 4.5rem;
+    --h2-font: 2.9rem;
+    --p-font: 1rem;
+
+}
