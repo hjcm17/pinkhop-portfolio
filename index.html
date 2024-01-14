@@ -5,117 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Pinkhop</title>
+    <!-- NORMALIZE CSS LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS GLOBAL -->
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
 <body>
     <!-- HEADER -->
-    <header>
-        <!-- / HEADER -->
-        <div class="logo">
-            <a href="#">Logo</a>
-        </div>
-
-
-        <!-- / HEADER / NAVIGATION -->
-        <nav class="nav">
-            <!-- MENU LIST -->
-            <ul class="nav--list">
-                <li class="nav--item"><a href="#Home" class="nav--link">Home</a></li>
-                <li class="nav--item"><a href="#Services" class="nav--link">Serviços</a></li>
-                <li class="nav--item"><a href="#About" class="nav--link">Sobre mim</a></li>
-                <li class="nav--item"><a href="#My-work" class="nav--link">Meu trabalho</a></li>
-                <li class="nav--item"><a href="#Contact" class="nav--link">Contate-me</a></li>
-            </ul>
-            <!-- / HEADER / NAVIGATION -->
-
+    <div class="container--hero">
+        <header>
+    
             <!-- / HEADER -->
-            <button class="nav-button">
-                <a href="" class="nav--link-btn">eBook</a>
+            <div class="logo">
+                <a href="#">Logo</a>
+            </div>
+    
+            <!-- / HEADER / NAV TOGGLE - MENU HAMBURGER -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"><i class="fa-solid fa-bars"></i></span>
             </button>
+    
+            <!-- / HEADER / NAVIGATION -->
+            <nav class="nav">
+                <!-- MENU LIST -->
+                <ul class="nav--list">
+                    <li class="nav--item"><a href="#Home" class="nav--link">Página inicial</a></li>
+                    <li class="nav--item"><a href="#Services" class="nav--link">Serviços</a></li>
+                    <li class="nav--item"><a href="#About" class="nav--link">Sobre mim</a></li>
+                    <li class="nav--item"><a href="#My-work" class="nav--link">Meu trabalho</a></li>
+                    <li class="nav--item"><a href="#Contact" class="nav--link">Contate-me</a></li>
+                </ul>
+                <!-- / HEADER / NAVIGATION -->
+    
+                <!-- / HEADER -->
+                <button class="nav-button">
+                    <a href="" class="nav--link-btn">eBook</a>
+                </button>
+    
+            </nav>
+    
+    
+        </header>
+        <!-- HEADER -->
+    
+    
+        <!-- HERO SECTION -->
+        <section class="intro" id="Home">
+            <h1 class="section--title section--title--intro">
+                Olá, eu sou<strong>Pinkhop</strong>
+            </h1>
+            <p class="section--subtitle section--subtitle--intro">Subtítulo</p>
+    
+            <img src="./assets/images/avatar.jpg" alt="a foto de Nome" srcset="" class="intro--img">
+            <!-- BUTTONS -->
+            <button class="section--btn--intro btn-about">
+                <a href="#About-me">Sobre mim</a>
+            </button>
+    
+            <button class="section--btn--intro btn-contact">
+                <a href="#Contact">Contate-me</a>
+            </button>
+    
+        </section>
+        <!-- HERO SECTION -->
 
-        </nav>
-
-        <!-- / HEADER / NAV TOGGLE - MENU HAMBURGER -->
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-
-    </header>
-    <!-- HEADER -->
-
-
-    <!-- HERO SECTION -->
-    <section class="intro" id="Home">
-
-        <h1 class="section--title section--title--intro">
-            Olá, eu sou<strong>Pinkhop</strong>
-        </h1>
-        
-        <h2 class="section--subtitle section--subtitle--intro">Subtítulo</h2>
-
-        <p class="section--subtitle">
-            Boas-vindas ao meu site!
-        </p>
-
-        <p class="section--subtitle">Lorem ipsum dolor sit amet consectetur. Sed lorem quisque
-            turpis
-            viverra vel malesuada nisl. Egestas bibendum velit massa orci habitant aliquam orci maecenas.
-        </p>
-
-        <img src="./assets/images/avatar.jpg" alt="a foto de Nome" srcset="">
-        <!-- BUTTONS -->
-        <button>
-            <a href="#About-me">Sobre mim</a>
-        </button>
-
-        <button>
-            <a href="#Contact">Contate-me</a>
-        </button>
-
-    </section>
-    <!-- HERO SECTION -->
-
-    <!-- ABOUT ME SECTION-->
-    <section class="about-me" id="About">
-        <h1 class="section--title section--title--about">Quem sou eu</h1>
-        <h2 class="section--subtitle section--subtitle-about">
-            Minhas habilidades aqui
-        </h2>
-        <p class="section--subtitle">Lorem ipsum dolor sit amet consectetur. Risus volutpat
-            nisl convallis dictum enim pulvinar. Elit turpis
-            facilisis morbi nec tempor habitant. Viverra faucibus aliquam diam libero. Tempus imperdiet sapien ut
-            sed integer.</p>
-        <!-- / ABOUT BODY -->
-        <div class="about-me--body">
-            <p></p>
-            <p></p>
-        </div>
-        <img src="" alt="" srcset="">
-    </section>
-    <!-- ABOUT ME SECTION-->
+    </div>
 
     <!-- SERVICES SECTION -->
     <section class="services" id="Services">
-        <h1 class="section--title section--title--services">Serviços</h1>
+        <h2 class="section--title section--title--services">Serviços</h2>
         <!-- / SERVICE -->
         <div class="services">
-            <h2>Subtítulo</h2>
-            <p></p>
-        </div>
+            <div class="service">
+                <h3>Consultoria Tributária</h3>
+                <p>Nossa equipe especializada em consultoria tributária oferece soluções personalizadas para otimizar a
+                    carga fiscal de sua empresa. Analisamos estratégias fiscais, identificamos oportunidades de economia
+                    e garantimos conformidade com a legislação vigente. Maximize seus recursos financeiros e mantenha-se
+                    em conformidade com as normas tributárias.</p>
+            </div>
+        </div> <!-- / SERVICE -->
         <div class="services">
-            <h2>Subtítulo</h2>
-            <p></p>
-        </div>
+            <div class="service">
+                <h3>Contabilidade Financeira</h3>
+                <p>Conte com nossos serviços de contabilidade financeira para manter suas finanças organizadas e
+                    transparentes. Realizamos a elaboração de relatórios contábeis, balanços patrimoniais,
+                    demonstrativos de resultados e outras análises financeiras. Com informações precisas e atualizadas,
+                    você terá uma base sólida para tomadas de decisão estratégicas e o crescimento sustentável de seu
+                    negócio.</p>
+            </div>
+        </div> <!-- / SERVICE -->
         <div class="services">
-            <h2>Subtítulo</h2>
-            <p></p>
-        </div>
-        <!-- / SERVICE -->
-        <a href="#eBook" class="btn">Meu eBook</a>
+            <div class="service">
+                <h3>Auditoria Interna</h3>
+                <p>Nossa equipe de auditores internos realiza uma análise detalhada dos processos internos da sua
+                    empresa para garantir conformidade, eficiência e integridade. Identificamos possíveis riscos,
+                    implementamos controles internos eficazes e ajudamos a melhorar a eficiência operacional. Conte
+                    conosco para fortalecer a confiança dos stakeholders e garantir a qualidade em cada aspecto do seu
+                    negócio.</p>
+            </div>
+        </div> <!-- / SERVICE -->
+
+        <a href="#eBook" class="btn">Meu trabalho</a>
+
     </section>
     <!-- SERVICES SECTION -->
+
+    <!-- ABOUT ME SECTION-->
+    <section class="about-me" id="About">
+        <h2 class="section--title section--title--about">Quem sou eu</h2>
+        <p class="section--subtitle section--subtitle-about">
+            Minhas habilidades aqui
+        </p>
+        <div class="about-me--body">
+            <p class="section--subtitle">Lorem ipsum dolor sit amet consectetur. Risus volutpat
+                nisl convallis dictum enim pulvinar. Elit turpis
+                facilisis morbi nec tempor habitant. Viverra faucibus aliquam diam libero. Tempus imperdiet sapien ut
+                sed integer.</p>
+        </div>
+        <!-- / ABOUT BODY -->
+        <img src="./assets/images/avatar.jpg" alt="" srcset="">
+    </section>
+    <!-- ABOUT ME SECTION-->
+
 
     <!-- MY WORK SECTION -->
     <section class="my-work" id="My-work">
@@ -125,6 +142,9 @@
 
         <!-- / MY WORK -->
         <div class="portfolio">
+            <a href="#" class="portfolio--item">
+                <img src="./assets/images/avatar.jpg" alt="" class="portfolio--img">
+            </a>
             <div class="portfolio--resume--card">
                 <h3 class="section--subtitle section--subtitle--card">Trajetória</h3>
                 <ul class="card-list">
@@ -222,13 +242,22 @@
     <footer>
         <a href="">Direitos autorais © 2024. Todos os direitos estão reservados</a>
         <ul class="social-list">
-            <li class="social-list--item"><a class="social-list--link" href=""></a></li>
+            <li class="social-list--item"><a class="social-list--link" href=""></a><i
+                    class="fa-brands fa-instagram"></i></li>
         </ul>
     </footer>
     <!-- FOOTER -->
 
+    <!-- LUCIDE ICON Production version -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 
+    <!-- SCROLL REVEAL JS LINK -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
+    <!-- TYPING JS LINK -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- MAIN JS -->
+    <script src="./assets/scripts/script.js"></script>
 </body>
 
 </html>
